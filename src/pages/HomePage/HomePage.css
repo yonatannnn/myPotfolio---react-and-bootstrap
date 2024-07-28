@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.homePage {
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    width: 92vw;
+}
+
+.intro {
+    color: #f8f9fa;
+    font-family: 'Roboto', sans-serif;
+    padding: 10%;
+}
+
+@media (max-width: 768px) {
+    .homePage {
+        background-color: rgba(0, 0, 0, 0.8);
+        display: flex;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+       
+    }    
+
+    .intro {
+        width: 100vw;
+        padding: 5%;
+    }
+
+    .intro .h3 {
+        font-size: 12px;
+        color: #ffca28;
+    }
+    
+    .intro .h1 {
+        font-size: 12px;
+        font-weight: 700;
+        margin-bottom: 1rem;
+        letter-spacing: 0.1rem;
+        text-transform: uppercase;
+        color: #ffca28;
+    }
+    
+    .intro p {
+        font-size: 1.5rem;
+        margin-bottom: 0.75rem;
+        letter-spacing: 0.05rem;
+        color: #ffffff;
+    }
+    
+
+
+}
+
+
+
+
+.intro .h3 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    letter-spacing: 0.05rem;
+    color: #ffca28;
+}
+
+.intro .h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    color: #ffd700;
+}
+
+.intro p {
+    font-size: 1.5rem;
+    margin-bottom: 0.75rem;
+    letter-spacing: 0.05rem;
+    color: #ffffff;
+}
+
+

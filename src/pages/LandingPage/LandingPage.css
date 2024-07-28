@@ -1,0 +1,17 @@
+.side-icons {
+    transition: transform 0.3s ease, color 0.3s ease;
+    color: white;
+}
+
+.side-icons:hover {
+    transform: scale(1.2);
+    color: #f39c12;
+}
+
+
+.side-icons:hover {
+    color: #f39c12; /* Change this color to your preferred hover color */
+    transform: scale(1.2); /* Increase the scale */
+}
+
+

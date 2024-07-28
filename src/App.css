@@ -1,0 +1,77 @@
+.App {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 6vw; 
+    background-color: #f4f4f4;
+    z-index: 2;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 768px) {
+    .sidebar {
+        display: none;
+    }
+
+    .right-side{
+        width: 100%;
+    }
+}
+
+*, ::after, ::before {
+    box-sizing:content-box
+}
+
+.main {
+    width: calc(100% - 5vw);
+    position: relative;
+    
+}
+
+@media (max-width: 768px) {
+    .main {
+        margin-left: 0; 
+        width: 100vw;
+    }
+}
+
+.homepage-bg {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.contents {
+    height: 100px;
+    background-color: white;
+    z-index: 1;
+}
+
+.yonatan-bg {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%; 
+    height: 100vh; 
+    object-fit: cover;
+    transition: transform 0.5s, filter 0.5s;
+    z-index: -1;
+}
+
+.yonatan-bg:hover {
+    transform: scale(1.05);
+    filter: brightness(1);
+}
