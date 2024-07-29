@@ -1,0 +1,90 @@
+.outer-skills {
+    padding: 0px 10% 5% 10%;
+    background-color: #343a40;
+}
+
+.inner-div {
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #495057;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.tab-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.tab-button {
+    background: #6c757d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.tab-button.active {
+    background: #ffca28;
+    color: black;
+}
+
+.skills-title{
+    margin-bottom: 10px;
+}
+
+.tab-button:hover {
+    background: #495057;
+    color: black;
+}
+
+.real.Skills {
+    width: 100%;
+}
+
+.skill-bar {
+    margin-bottom: 15px;
+    background: #495057;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.skill-bar:hover {
+    transform: scale(1.05);
+}
+
+.skill-bar .progress {
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    background: linear-gradient(90deg, #ffc107, #8d7f06); /* Yellow gradient */
+    border-radius: 5px 5px 5px 5px;
+    transition: width 0.4s ease;
+    position: relative;
+}
+
+.skill-bar .progress-label {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+}
+
+.skill-bar .skill-name {
+    padding: 10px;
+    color: #f8f9fa;
+    font-weight: 500;
+}

@@ -1,0 +1,95 @@
+.outer-about {
+    padding: 10%;
+    background-color: #343a40;
+    color: white;
+}
+
+.fade-in-up {
+    opacity: 0;
+    transform: translateY(20%);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  }
+  
+  .fade-in-up.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+.inner-about {
+    display: flex;
+    flex-direction: column; 
+    min-height: 100vh; 
+}
+
+@media (min-width: 768px) {
+    .inner-about {
+        flex-direction: row; /* Row for larger screens */
+    }
+}
+
+.image .about-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px; /* Space between image and text on mobile */
+}
+
+.about {
+    max-width: 600px;
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    flex-grow: 1;
+}
+
+
+
+@media (min-width: 768px) {
+    .about { 
+        margin-left: 5%;
+        text-align: left; /* Left-align text on larger screens */
+    }
+
+}
+
+.socials{
+    justify-content: start;
+    gap: 15%;
+}
+
+@media (max-width: 768px) {
+    .socials { 
+        justify-content: center;
+    }
+
+}
+
+.about-text h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.about-text p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.personal-infos h3 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+.personal-infos{
+    margin-bottom:30px;
+}
+
+.personal-infos ul {
+    list-style: none;
+    padding: 0;
+}
+
+.personal-infos li {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}

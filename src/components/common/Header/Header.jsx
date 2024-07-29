@@ -37,8 +37,8 @@ const Header = () => {
   return (
     <div className='header'>
       <header>        
-        <nav className="navbar navbar-expand-lg navbar-light bg-dark justify-space-around">
-          <button className="navbar-toggler bg-warning align-self-center  mx-2" type="button" data-bs-toggle="collapse" data-bs-target="#nav-links" aria-controls="nav-links" aria-expanded="false" aria-label="Toggle navigation">
+        <nav className="navbar navbar-expand-lg navbar-light navbar-custom justify-space-around">
+          <button className="navbar-toggler bg-warning align-self-center mx-2" type="button" data-bs-toggle="collapse" data-bs-target="#nav-links" aria-controls="nav-links" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="nav-links">

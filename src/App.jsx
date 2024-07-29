@@ -4,6 +4,8 @@ import '../src/App.css';
 import HomePage from './pages/HomePage/HomePage';
 import yonatanBg from '../src/assets/images/yonatan2.jpg';
 import Header from './components/common/Header/Header';
+import AboutMe from './pages/AboutMe/AboutMe';
+import Skills from './pages/Skills/Skills';
 import { width } from '@fortawesome/free-brands-svg-icons/fa42Group';
 
 function App() {
@@ -18,6 +20,9 @@ function App() {
         </div>
         <HomePage />
         <Header className = 'right-side'  ></Header>
+        <AboutMe className='right-side'></AboutMe>
+        <Skills></Skills>
+        
       </div>
     </div>
   );
