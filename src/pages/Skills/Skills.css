@@ -1,12 +1,10 @@
 .outer-skills {
     padding: 0px 10% 5% 10%;
-    background-color: #343a40;
 }
 
 .inner-div {
     padding: 20px;
-    border-radius: 5px;
-    background-color: #495057;
+    
     margin-bottom: 20px;
 }
 
@@ -52,7 +50,6 @@ h1 {
 
 .skill-bar {
     margin-bottom: 15px;
-    background: #495057;
     border-radius: 5px;
     position: relative;
     overflow: hidden;
@@ -66,7 +63,7 @@ h1 {
 
 .skill-bar .progress {
     height: 30px;
-    line-height: 30px;
+    line-height: 30px;  
     color: #fff;
     text-align: center;
     background: linear-gradient(90deg, #ffc107, #8d7f06); /* Yellow gradient */

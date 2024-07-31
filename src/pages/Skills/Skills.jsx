@@ -25,9 +25,9 @@ const Skills = () => {
 
     return (
         <div className="outer-skills bg-dark d-flex flex-column align-center">
-            <div className="inner-div border border-white">
-                <div className="d-flex justify-content-center">
-                    <h1 className="text-warning align-self-center d-inline skills-title">Skills</h1>
+            <div className="inner-div">
+                <div className="d-flex justify-content-center mb-5">
+                    <h1 className="text-warning align-self-center  skills-title">Skills</h1>
                 </div>
                 <div className="tab-container">
                     <button
